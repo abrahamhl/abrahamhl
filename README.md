@@ -16,18 +16,19 @@ I build products where design, frontend engineering and AI meet — and I verify
 | [eu-cti-brief](https://github.com/abrahamhl/eu-cti-brief) | Prioritised vulnerability bulletin from NCSC-NL, CERT-EU, BSI, CISA KEV and EPSS — three priority tiers, watchlist support | 8 | Python · stdlib only |
 | [citation-audit](https://github.com/abrahamhl/citation-audit) | Checks whether sources cited in AI-generated answers actually say what the answer claims — no AI inside | 6 | Python · stdlib only |
 | [chronolocate](https://github.com/abrahamhl/chronolocate) | Sun position, shadow-based time solving, EXIF consistency, perceptual hashing, Content Credentials (C2PA) detection | 10 | Python · Pillow |
-| [threat-feed-correlator](https://github.com/abrahamhl/threat-feed-correlator) | Cross-correlate multiple CERT/CISA feeds into one deduplicated, ATT&CK-mapped, EPSS-enriched threat report | 12+ | Python · stdlib only |
-| [ioc-evidence-store](https://github.com/abrahamhl/ioc-evidence-store) | Offline-first IOC database with STIX 2.1 export, SHA-256 integrity chain, CSV/JSON import | 15+ | Python · stdlib only |
-| [web-exposure-scan](https://github.com/abrahamhl/web-exposure-scan) | Passive e-mail and web exposure check for SMBs — SPF, DKIM, DMARC, TLS, headers — with client-ready reports in NL/EN/ES | ✓ | Node · zero deps |
+| [threat-feed-correlator](https://github.com/abrahamhl/threat-feed-correlator) | Cross-correlate multiple CERT/CISA feeds into one deduplicated, ATT&CK-mapped, EPSS-enriched threat report | 7 | Python · stdlib only |
+| [ioc-evidence-store](https://github.com/abrahamhl/ioc-evidence-store) | Offline-first IOC database with STIX 2.1 export, SHA-256 integrity chain, CSV/JSON import | 12 | Python · stdlib only |
+| [web-exposure-scan](https://github.com/abrahamhl/web-exposure-scan) | Passive e-mail and web exposure check for SMBs — SPF, DKIM, DMARC, TLS, headers — with client-ready reports in NL/EN/ES | 18 | Node · zero deps |
 
 ## 🛡️ Security & AI Evaluation
 
 | Project | What it does | Stack | Live |
 |---|---|---|---|
+| [mcp-osint-server](https://github.com/abrahamhl/mcp-osint-server) | MCP server exposing OSINT tools (sanctions screening, CTI briefs, IOC search, chronolocation) to AI agents | TypeScript · MCP SDK | - |
 | [civil-sentry](https://github.com/abrahamhl/civil-sentry) | Evidence-driven cyber situational awareness: authorization gate, SHA-256 evidence chain, AI findings grounded in proof | TypeScript · zero runtime deps · Apache-2.0 | [site](https://civil-sentry.vercel.app/) |
 | [Buyer Arena](https://github.com/abrahamhl/buyer-arena) | Evidence-first evaluation of web products and AI-agent changes: seeded synthetic buyers in a real browser, baseline vs candidate, release gates | TypeScript · Node 22 · Playwright | - |
 | [npm-supply-chain-auditor](https://github.com/abrahamhl/npm-supply-chain-auditor) | Read-only scanner for compromised npm packages, droppers and persistence hooks | PowerShell · offline IOC dataset | - |
-| [ARGUS](https://github.com/abrahamhl/argus) | Evidence and opportunity control plane: typed, hashed evidence from collectors, correlated into findings. Early stage | TypeScript · pnpm monorepo | - |
+| [ARGUS](https://github.com/abrahamhl/argus) | Evidence and opportunity control plane: typed, hashed evidence from collectors, correlated into findings and retests. 195 tests | TypeScript · pnpm monorepo | - |
 
 ## 🎨 Creative Technology & Product
 
